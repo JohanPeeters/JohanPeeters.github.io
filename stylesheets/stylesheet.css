@@ -57,7 +57,7 @@ body {
 
 #logo {
     font-size: 34px;
-    position: absolute;
+    position: relative;
     top: 20px;
     left: 44px;
     z-index: 8888;
@@ -316,26 +316,26 @@ dl dt {
   color: #303030;
 }
 
-#navcontainer {
+nav {
     position: relative;
-    float: left;
     text-transform: capitalize;
     font-weight: bolder;
     z-index: 2;
 }
 
-#navcontainer li {
+nav li {
     margin:0;
     list-style:none;
     padding:0 8px;
+    float: left;
 }
-#navcontainer li a:link, #navcontainer li a:visited {
+nav li a:link, nav li a:visited {
     text-align:left;
     text-decoration:none;
     color:#000000;
     height:13px;
 }
-#navcontainer li:hover a, #navcontainer li a:hover, #navcontainer li a:active {
+nav li:hover a, nav li a:hover, nav li a:active {
     padding:4px 0;
     text-align:left;
     text-decoration:none;
@@ -350,7 +350,7 @@ dl dt {
     width: 50%;
 }
 
-#footer {
+footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   position: fixed;
   bottom: 8px;
@@ -359,14 +359,14 @@ dl dt {
   width: 100%;
 }
 
-#footer a {
+footer a {
   color: #666;
 }
-#footer a:hover {
+footer a:hover {
   color: #444;
 }
 
-#footer p{
+footer p{
   text-align: center;
 }
 
