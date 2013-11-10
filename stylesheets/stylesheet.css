@@ -28,7 +28,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin-left: 13%;
 }
 ol, ul {
 	list-style: none;
@@ -50,32 +51,9 @@ table {
 
 body {
     font-size: 1em;
-    margin: 44px;
     line-height: 1.5;
     font-family: Helvetica, Arial, Verdana, sans-serif;
 }
-
-#logo {
-    font-size: 34px;
-    position: relative;
-    top: 20px;
-    left: 44px;
-    z-index: 8888;
-}
-
-/*
-#navcontainer {
-    font-size: 21px;
-    position: absolute;
-    top: 34px;
-    left: 400px;
-    z-index: 8888;
-    width: 600px;
-    height: 130px;
-    overflow: hidden;
-}
-
-*/
 
 a {
   color: #d5000d;
@@ -91,7 +69,6 @@ header {
 header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
-  font-size: 48px;
   color: #303030;
   line-height: 1.2;
 }
@@ -212,11 +189,6 @@ pre code {
   padding: 0;
 }
 
-ul, ol, dl {
-  margin-bottom: 20px;
-}
-
-
 /* COMMON STYLES */
 
 hr {
@@ -254,7 +226,7 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 h1 {
-  font-size: 32px;
+  font-size: 2.5em;
 } 
 
 h2 {
@@ -304,7 +276,7 @@ blockquote {
 
 ul li {
   list-style: disc inside;
-  padding-left: 20px;
+  margin-left: 1em;
 }
 
 ol li {
@@ -321,12 +293,13 @@ nav {
     text-transform: capitalize;
     font-weight: bolder;
     z-index: 2;
+    top: 0.5em;
 }
 
 nav li {
     margin:0;
     list-style:none;
-    padding:0 8px;
+    padding:0 1em 0 0;
     float: left;
 }
 nav li a:link, nav li a:visited {
@@ -343,20 +316,24 @@ nav li:hover a, nav li a:hover, nav li a:active {
     height:13px;
 }
 
-#maincontent {
+section {
     background-color: #eee;
     position: absolute;
-    left: 223px;
-    width: 50%;
+    top: 8em;
+    margin-right: 13%;
+}
+
+p {
+    margin: 0.5em 1em;
 }
 
 footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
   position: fixed;
-  bottom: 8px;
-  font-size: 13px;
+  bottom: 1em;
+  font-size: 0.8em;
   color: #aaa;
-  width: 100%;
+  width: 74%;
 }
 
 footer a {
