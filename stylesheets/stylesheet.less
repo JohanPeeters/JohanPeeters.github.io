@@ -1,59 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-    line-height: 1;
-    margin-left: 13%;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* LAYOUT STYLES */
-
-body {
-    font-size: 1em;
-    line-height: 1.5;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-}
+@import "bootstrap/bootstrap.less";
 
 a {
   color: #d5000d;
@@ -101,13 +46,7 @@ td {
 }
 
 /* GENERAL ELEMENT TYPE STYLES */
-
-h1 {
-  font-size: 2.5em;
-} 
-
 h2 {
-  font-size: 22px;
   font-weight: bold;
   color: #303030;
   margin-bottom: 8px;
@@ -122,7 +61,6 @@ p a {
 }
 
 blockquote {
-  font-size: 1.6em;
   border-left: 10px solid #e9e9e9;
   margin-bottom: 20px;
   padding: 0 0 0 30px;
@@ -130,57 +68,20 @@ blockquote {
 
 ul li {
   list-style: disc inside;
-  margin-left: 1em;
-}
-
-ol li {
-  list-style: decimal inside;
-  padding-left: 3px;
 }
 
 dl dt {
   color: #303030;
 }
 
-nav {
-    position: relative;
-    font-weight: bolder;
-    z-index: 2;
-    top: 0.5em;
-}
-
-nav li {
-    margin:0;
-    list-style:none;
-    padding:0 1em 0 0;
-    float: left;
-    text-transform: capitalize;
-    font-family: Optima, inherit;
-}
-nav li a:link, nav li a:visited {
-    text-align:left;
-    text-decoration:none;
-    color:#000000;
-    height:13px;
-}
-nav li:hover a, nav li a:hover, nav li a:active {
-    padding:4px 0;
-    text-align:left;
-    text-decoration:none;
-    color:#000000;
-    height:13px;
-}
-
-section {
-    background-color: #eee;
-    position: absolute;
-    top: 8em;
-    margin-right: 13%;
-    width: 74%;
-}
-
-section p, section table{
-    margin: 0.5em 1em;
+.nav li {
+  padding-left: 0;
+  margin-right: 1em;
+  text-transform: capitalize;
+  font-family: Optima, inherit;
+  a {
+    padding-left: 0;
+  }
 }
 
 footer {
@@ -240,6 +141,30 @@ footer p{
   .inner {
     width: 94%;
     margin: 0 auto;
+  }
+/*
+the hamburger button with a little gradient effekt
+*/
+  #hamburger {
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    padding: 3px 4px 3px;
+    position: relative;
+    width: 25px;
+    background: #4569b2;
+  }
+
+/*
+The white stripes in the hamburger button
+*/
+  #hamburger div {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 90%;
   }
 }
 
