@@ -11,9 +11,14 @@
     <meta http-equiv="content-type" content="text/html;"/>
     <script src="javascript/jquery-1.10.2.min.js"></script>
     <script src="javascript/bootstrap.min.js"></script>
+    <style typ="text/css">
+        #{{page.active_menu_id}}, #{{page.active_menu_id}} a {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-bottom-style: none;
+        }
+    </style>
 </head>
 <body>
-
 
 <div class="container">
 
@@ -34,23 +39,28 @@
     <div class="row">
         <div class="col-xs-0 col-md-2"></div>
         <div class="col-xs-12 col-md-8">
-            <ul id="tabs" class="nav nav-tabs">
-                <li>
-                    <a  href="contact.html" data-toggle="tab" title="Contact Johan Peeters bvba">contact</a>
-                </li>
-                <li>
-                    <a  href="cv.html" data-toggle="tab" title="CV">cv</a>
-                </li>
-                <li>
-                    <a  href="papers.html" data-toggle="tab" title="Patents and publications">writing</a>
-                </li>
-                <li>
-                    <a  href="teaching.html" data-toggle="tab" title="teaching">teaching</a>
-                </li>
-                <li>
-                    <a  href="events.html" data-toggle="tab" title="Events">events</a>
-                </li>
-            </ul>
+            <div class="navbar navbar-default" role="navigation">
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                       <li>
+                            <a  href="contact.html" id="contact" title="Contact Johan Peeters bvba">contact</a>
+                        </li>
+                        <li>
+                            <a  href="cv.html" title="CV">cv</a>
+                        </li>
+                        <li>
+                            <a  href="papers.html" data-toggle="tab" title="Patents and publications">writing</a>
+                        </li>
+                        <li>
+                            <a  href="teaching.html" data-toggle="tab" title="teaching">teaching</a>
+                        </li>
+                        <li>
+                            <a  href="events.html" data-toggle="tab" title="Events">events</a>
+                        </li>
+                   </ul>
+                </div>
+            </div>
+
         </div>
         <div class="col-xs-0 col-md-2"></div>
     </div>
@@ -59,6 +69,7 @@
         <div class="col-xs-0 col-md-2"></div>
         <div class="col-xs-12 col-md-8">
             <section>
+
 
             {{ content}}
 
@@ -82,6 +93,7 @@
                     updated Sunday, 01-Dec-2013.
                 </p>
             </footer>
+
 <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -90,5 +102,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-1113451-3');ga('send','pageview');
 </script>
+
 </body>
 </html>

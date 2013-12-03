@@ -1,6 +1,7 @@
 ---
         layout: page
         title: Contact
+        active_menu_id: contact
 ---
 
 	Johan Peeters bvba
