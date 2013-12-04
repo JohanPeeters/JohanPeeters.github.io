@@ -1,8 +1,7 @@
 ---
 
         layout: page
-        title: Home
-        active_menu_id: home
+        title: home
 
 ---
 

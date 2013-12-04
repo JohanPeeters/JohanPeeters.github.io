@@ -42,11 +42,13 @@ ul.nav {
 }
 
 ul.nav > li > a {
-    padding-left: 0;
     border-width: 0;
-    border-bottom-width: 1px;
+    border-bottom-width: 0.1em;
     border-bottom-style: solid;
-    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-bottom-color: #777;
+    border-top-width: 0.1em;
+    border-top-style: solid;
+    border-top-color: #777;
 }
 
 a {

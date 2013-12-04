@@ -12,9 +12,9 @@
     <script src="javascript/jquery-1.10.2.min.js"></script>
     <script src="javascript/bootstrap.min.js"></script>
     <style typ="text/css">
-        #{{page.active_menu_id}}, #{{page.active_menu_id}} a {
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            border-bottom-style: none;
+        #{{page.title}}, #{{page.title}} a {
+            background-color: #777;
+            color: #303030;
         }
     </style>
 </head>
@@ -46,16 +46,16 @@
                             <a  href="contact.html" id="contact" title="Contact Johan Peeters bvba">contact</a>
                         </li>
                         <li>
-                            <a  href="cv.html" title="CV">cv</a>
+                            <a  href="cv.html" id="cv" title="CV">cv</a>
                         </li>
                         <li>
-                            <a  href="papers.html" data-toggle="tab" title="Patents and publications">writing</a>
+                            <a  href="papers.html" id="writing" title="Patents and publications">writing</a>
                         </li>
                         <li>
-                            <a  href="teaching.html" data-toggle="tab" title="teaching">teaching</a>
+                            <a  href="teaching.html" id="teaching" title="teaching">teaching</a>
                         </li>
                         <li>
-                            <a  href="events.html" data-toggle="tab" title="Events">events</a>
+                            <a  href="events.html" id="events" title="Events">events</a>
                         </li>
                    </ul>
                 </div>
