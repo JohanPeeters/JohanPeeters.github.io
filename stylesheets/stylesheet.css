@@ -37,6 +37,12 @@ h1 {
     padding-left: 0;
 }
 
+.navbar-default {
+    background-image: none;
+    box-shadow: none;
+    background-color: #ffffff;
+}
+
 ul.nav {
     text-transform: capitalize;
 }
@@ -49,10 +55,12 @@ ul.nav > li > a {
     border-width: 0;
     border-bottom-width: 0.1em;
     border-bottom-style: solid;
-    border-bottom-color: #777;
     border-top-width: 0.1em;
     border-top-style: solid;
-    border-top-color: #777;
+}
+
+.navbar-nav > li > a {
+    text-shadow: none;
 }
 
 a {
