@@ -74,12 +74,17 @@ a:hover {
 
 img {
     float: left;
-    padding-right: 1em;
+    max-width: 8.73em;
+}
+
+ul {
+   padding-left: 0.15em;
 }
 
 li {
     position: relative;
     left: 1em;
+
 }
 
 footer {
