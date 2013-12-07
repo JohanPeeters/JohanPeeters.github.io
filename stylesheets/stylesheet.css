@@ -61,6 +61,7 @@ ul.nav > li > a {
 
 .navbar-nav > li > a {
     text-shadow: none;
+    padding-left: 0;
 }
 
 a {
@@ -101,7 +102,8 @@ footer p{
   text-align: center;
 }
 
-@media only screen and (min-width: 580px){
+@media only screen
+and (min-device-width : 321px) {
     body{
         font-size: 1em;
     }
