@@ -1,6 +1,7 @@
 ---
         layout: page
         title: contact
+        main_category: contact
 ---
 
 	Johan Peeters bvba

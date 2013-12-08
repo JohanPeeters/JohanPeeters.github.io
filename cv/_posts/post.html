@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>De Post - La Poste</title>
+    <meta name="author" content="Johan Peeters">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Johan Peeters' assignment description">
+    <link rel="stylesheet" type="text/css" href="http://johanpeeters.com/johanpeeters.css">
+</head>
+<body>
+
+
+<p>
+An assessment of options for making electronic payments more attractive was made. A number of PKI-based schemes were studied, some of which were currently supported by De Post. I made recommendations regarding the further development of electronic payments. These included additional security measures, particularly to avoid internal fraud, increasing the capacity of electronic payment processing chains and defining policy and procedures for back-office staff. 
+I implemented most of these.
+</p>
+<p>
+De Post's IT environment contains a classic mix of Microsoft, Unix and mainframe technologies.
+Desktops are exclusively Windows 2000 and run the usual productivity tools.
+At the server-side, there are a number of Windows systems to support users on the Microsoft desktops.
+However, the business infrastructure mainly runs on Linux, Solaris and BS2000.
+There are also a few servers with more exotic operating systems, such as a pair of Tru64 Unix machines with which I worked extensively because of the central role they perform as a payment gateway.
+</p>
+<p>
+A threat model was constructed as a starting point for mitigating risk.
+This included an assessment of
+<ul>
+	<li>network-based threats,</li>
+	<li>the extent to which desktops could be used as attack vectors,</li>
+	<li>server-side host-based vulnerabilities.</li>
+</ul>
+</p>
+<p>
+In order to address the former, recommendations were made for the deployment of internal firewalls.
+Telnet and FTP traffic was migrated to SSH-based protocols.
+</p>
+<p>
+Desktop vulnerabilities were met by hardening.
+Server-side Perl and Python scripts were developed to improve auditability of user interaction with business applications.
+</p>
+<p>
+Servers were hardened.
+Availability was improved by rigorously defining and practicing failover procedures.
+Attendant scripts were developed in Bourne shell.
+</p>
+<p>
+Changes were made to rule sets in external firewalls as new administrative capabilities were introduced and certification procedures were changed.
+</p>
+<p align=right>
+	Reference: Jean-Pierre Pierseaux
+</p>
+
+</div>
+<div id="footer">
+	
+	<p>
+		&copy; Copyright 2003&#8211;2007 <a href="http://johanpeeters.com">Johan Peeters bvba</a>, 
+		updated Saturday December 09, 2006.
+	</p>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" />
+    <title>Johan Peeters bvba: {{page.title}}</title>
+    <meta name="author" content="Johan Peeters"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;"/>
+    <style typ="text/css">
+        #{{page.main_category}}, #{{page.main_category}} a {
+            background-color: #777;
+            color: #303030;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a href="index.html">
+                             <h1>
+                               Johan Peeters bvba
+                             </h1>
+           </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>
+                <a  href="contact.html" id="contact" title="Contact Johan Peeters bvba">contact</a>
+            </li>
+            <li>
+                <a  href="cv.html" id="cv" title="CV">cv</a>
+            </li>
+            <li>
+                <a  href="papers.html" id="writing" title="Patents and publications">writing</a>
+            </li>
+            <li>
+                <a  href="teaching.html" id="teaching" title="teaching">teaching</a>
+            </li>
+            <li>
+                <a  href="events.html" id="events" title="Events">events</a>
+            </li>
+           </ul>
+        </div>
+    </div>

@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>UltraGenda</title>
+    <meta name="author" content="Johan Peeters">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Johan Peeters' assignment description">
+    <link rel="stylesheet" type="text/css" href="http://johanpeeters.com/johanpeeters.css">
+</head>
+<body>
+
+<p>
+<a href="http://www.chooseandbook.nhs.uk" target="_blank">Choose and Book</a> (C&B) is one of the services offered by the English National Programme for IT (NPfIT).
+C&B is also refered to as the e-Booking Service, or eBS, as it allows General Practitioners (GPs) to make outpatient appointments in hospitals across the country online.
+</p>
+<p>
+The e-Booking Service polls each connected hospital at regular intervals for available appointment slots.
+GPs use the web front-end for making appointments.
+The service then talks to individual patient administration systems on their behalf via the Spine, the NPfIT messaging infrastructure.
+Conversely, the service must be notified if one of the previously published slots becomes unavailable, so that the slot server is kept up to date between polling cycles.
+</p>
+<p>
+The Spine comprises data stores and the Transaction and Messaging Spine (TMS).
+The TMS is built on top of an ebXML Message Service Handler and routes HL7 version 3 messages between Spine-connected systems.
+<br/>
+Systems participating in the eBS must implement the appropriate HL7 messages in order to interface with the eBS back-end, as well as interfacing with some of the Spine data store services, notably the Patient Demographic Service (PDS) and the Spine Directory Service (SDS).
+The former serves demographic information for NHS patients and is accessible via ebXML messaging, the latter contains the NHS LDAP directory.
+</p>
+<p>
+UltraGenda Pro is the UltraGenda hospital appointment and scheduling system.
+A new add-on was developed for eBS compliance.
+</p>
+<p>
+Medical records are not exchanged between the Spine and patient administration systems.
+Even so, access to the Spine is highly sensitive and is only granted after delivering a series of rigorously reviewed milestones including system specifications, design, test plans, roll-out plans, information governance policies and test results from a system in a stubbed environment.
+Access for on-line testing and, ultimately, certification requires setting up a VPN to the NHS' N3 network.
+</p>
+<p>
+The UltraGenda Pro add-on is implemented in C# on the .NET framework.
+</p>
+<p align="right">
+	Reference: Etienne Maerien
+</p>
+
+</div>
+<div id="footer">
+	
+	<p>
+		&copy; Copyright 2003&#8211;2007 <a href="http://johanpeeters.com">Johan Peeters bvba</a>, 
+		updated Sunday December 10, 2006.
+	</p>
+</div>
+</body>
+</html>
+

@@ -1,1 +1,2 @@
-exclude: [Gemfile, Gemfile.lock, params.json]
+exclude: [Gemfile, Gemfile.lock, params.json, README.md]
+relative_permalinks: false

@@ -2,6 +2,7 @@
 
         layout: page
         title: cv
+        main_category: cv
 
 ---
 

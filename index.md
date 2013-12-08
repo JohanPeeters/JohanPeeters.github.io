@@ -2,6 +2,7 @@
 
         layout: page
         title: home
+        main_category: home
 
 ---
 

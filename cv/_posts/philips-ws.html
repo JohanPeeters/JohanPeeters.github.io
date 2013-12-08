@@ -1,0 +1,73 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Philips web services</title>
+    <meta name="author" content="Johan Peeters">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Johan Peeters' assignment description">
+    <link rel="stylesheet" type="text/css" href="http://johanpeeters.com/johanpeeters.css">
+</head>
+<body>
+
+<p>
+In early 2002, Philips set up a web services competence group, based in the remote control division. This move was a response to the inevitable need for future consumer electronics devices to run networked applications. Web services was perceived as the enabling technology to realize this vision.
+I worked on 2 assignments with this group: an Electronic Program Guide (EPG) and over-the-air provisioning.
+</p>
+<p>
+The Philips EPG targets remote control devices, controlling audio-visual (AV) equipment. A first distinguishing competitive feature is that it encompasses a range of networks; the locus of control is an operator-independent remote control device rather than an operator-specific application running on a set-top box on the consumer's premises or a head-end.
+A second distinguishing feature is the ability to personalize on the basis of channel or content; consumers' view on TV programming is limited to programs they have declared an interest in. This is an important advantage in the context of the growing number of television channels.
+Thirdly, the EPG service delivers data conforming to an XML Schema definition. Hence applications running on the client device can use the data in novel ways. 
+The XML document can be cached on the client device, so user response is immediate and reliable, even in the presence of intermittent network or server failures.
+</p>
+<p>
+I was responsible for requirements engineering of EPG. This took me into
+<ul>
+	<li>product definition, particularly revenue generation;</li>
+	<li>design and specification of EPG formats and protocols;</li>
+	<li>design and specification of a web application to support user subscription and customisation;</li>
+	<li>validating specifications by prototyping.</li>
+</ul>
+The service's interactions with its environment were described in use cases. 
+A supporting UML model was developed, particularly focusing on state transitions in the subscription and customisation web application. Web services were also described syntactically in WSDL.
+</p>
+<p>
+EPG documents are retrieved by the client using SOAP over HTTP. Clients are authenticated with a zero-knowledge protocol.
+</p>
+<p>
+Implementation of the service's back-end was outsourced to content providers in the regions offering the service. Due to the high quality of the specifications, the implementation and its acceptance was relatively painless. Specification quality, in turn, was achieved by rigorously validating the specifications with prototype implementations. The web application was prototyped with a JBoss J2EE server; the web services were validated using Axis running on Tomcat behind an Apache front-end.
+</p>
+<p>
+The EPG application went live in early 2003 in North America and has since been implemented and deployed in Europe and Asia. It is being used in a number of Philips devices and has also been used in OEM equipment.
+</p>
+<p>
+In the provisioning assignment, I was responsible for acceptance of a third-party solution.
+Provisioning for CE devices is driven by the dual aims of reducing handling costs of units with software or firmware bugs and delighting the customer with new functionality.
+</p>
+<p>
+The provisioning protocol also used SOAP over HTTP for transport.
+</p>
+<p>
+I performed functional and performance tests.
+In order to validate the provisioning protocol with business requirements for remote controls, a prototype user interface was designed and implemented. This also served for many demonstrations to higher management and OEM vendors.
+As the implementation of provisioning clients was outsourced, I was commisioned to retrofit a formal WSDL description.
+I also designed the user interface for an internet radio marketed by one of the OEM vendors.
+</p>
+</p>
+<p align=right>
+	Reference: Rogier Thissen
+</p>
+
+
+</div>
+<div id="footer">
+	
+	<p>
+		&copy; Copyright 2003&#8211;2007 <a href="http://johanpeeters.com">Johan Peeters bvba</a>, 
+		updated Wednesday March 08, 2006.
+	</p>
+</div>
+</body>
+</html>
