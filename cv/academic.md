@@ -1,19 +1,12 @@
 ---
 
-        layout: page
+        layout: cv
         title: Academic Qualifications
         permalink: /cv/academic.html
         main_category: cv
 
 ---
-
-<h2>Academic Qualifications</h2>
-
 <!-- KUL-->
-
-
-
-
 
 <table width="100%">
 	<col width="50%"/>
@@ -37,10 +30,6 @@
 </table>
 
 <!-- OU-->
-
-
-
-
 
 <table width="100%">
 	<col width="50%"/>

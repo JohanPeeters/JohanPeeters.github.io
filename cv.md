@@ -1,6 +1,6 @@
 ---
 
-        layout: page
+        layout: cv
         title: cv
         main_category: cv
 
