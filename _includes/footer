@@ -1,12 +1,5 @@
     </div>
 
-    <footer>
-        <p>
-            &copy; Copyright 2003&#8211;2013 <a href="/">Johan Peeters bvba</a>,
-            updated Sunday, 08-Dec-2013.
-        </p>
-    </footer>
-
     <script src="/javascript/jquery-1.10.2.min.js"></script>
     <script src="/javascript/bootstrap.min.js"></script>
     <script>
