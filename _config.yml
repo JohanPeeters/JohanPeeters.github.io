@@ -2,4 +2,4 @@ exclude: [Gemfile, Gemfile.lock, params.json, README.md]
 relative_permalinks: false
 permalink: /:title/
 paginate: 3
-paginate_path: "cv/page:num"
+paginate_path: "/cv/page:num"

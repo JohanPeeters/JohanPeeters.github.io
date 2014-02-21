@@ -2,6 +2,7 @@
 layout: post
 title: Alcatel Alma-Expert
 end: 1998-10-01
+function: Senior software engineer
 ---
 
 ALMA-Expert was an Alcatel expert system for network management.

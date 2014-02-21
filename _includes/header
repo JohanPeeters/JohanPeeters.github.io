@@ -10,7 +10,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="content-type" content="text/html;"/>
-        <style typ="text/css">
+        <style type="text/css">
             #{{page.main_category}}, #{{page.main_category}} li {
                 background-color: #777;
                 color: #303030;
@@ -30,14 +30,11 @@
                             <li id="cv">
                                 <a  href="/cv.html" title="CV">cv</a>
                             </li>
-                            <li id="writing">
-                                <a  href="/papers.html" title="Patents and publications">writing</a>
+                            <li id="portfolio">
+                                <a  href="/portfolio.html" title="Portfolio">portfolio</a>
                             </li>
-                            <li id="teaching">
-                                <a  href="/teaching.html" title="teaching">teaching</a>
-                            </li>
-                            <li id="events">
-                                <a  href="/events.html" title="Events">events</a>
+                            <li id="blog">
+                                <a  href="http://secappdev-org.blogspot.be/" title="Blog">blog</a>
                             </li>
                         </ul>
                     </div>

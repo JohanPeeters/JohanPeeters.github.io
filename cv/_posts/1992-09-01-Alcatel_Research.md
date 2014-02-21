@@ -2,6 +2,7 @@
 layout: post
 title: Alcatel research
 end: 1995-11-01
+function: Research engineer
 ---
 
 Pioneering work in object orientation for telecommunications systems, video on demand, IP and telecom convergence.
