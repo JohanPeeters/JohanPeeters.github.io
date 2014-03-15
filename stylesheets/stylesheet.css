@@ -23,13 +23,15 @@ h1 {
 }
 
 .nav > li > a {
-    color: #bbb;
+    color: white;
+    text-transform: uppercase;
 }
 
 ul.nav {
     text-transform: capitalize;
     background-image: none;
     border: none;
+    background-color: #7f7868;
 }
 
 .nav > li {
