@@ -5,3 +5,5 @@ paginate: 3
 paginate_path: "/cv/page:num"
 gems:
   - jekyll-sitemap
+sass:
+  style: compressed
