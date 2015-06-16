@@ -1,0 +1,79 @@
+---
+---
+@import "bootstrap.min.css", "bootstrap-theme.min.css";
+
+$font-color: #7f7868;
+$link-color: #d5000d;
+$color-shift: #100001;
+$hovered-link-color: $link-color - $color-shift;
+$max-img-width: 8.73em;
+$ul-padding-left: 0.15em;
+
+html {
+  font-size: 100%;
+}
+
+.primary-menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    color: $font-color;
+    line-height: 1.2;
+    font-size: 2.5em;
+    margin-top: 0.25em;
+    padding-top: 43px;
+}
+
+ul {
+   padding-left: $ul-padding-left;
+   li {
+     position: relative;
+     left: 1em;
+   }
+   &.nav {
+     text-transform: capitalize;
+     background-image: none;
+     border: none;
+     background-color: $font-color;
+  }
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:hover {
+    color: $hovered-link-color;
+  }
+  &.navbar-left {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+img {
+    float: left;
+    max-width: $max-img-width;
+}
+
+.nav {
+  li {
+    left: 0;
+    a {
+      color: white;
+      }
+     } 
+}
+
+@media only screen
+and (min-device-width : 321px) {
+    body{
+        font-size: 1em;
+    }
+}
