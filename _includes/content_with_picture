@@ -2,7 +2,7 @@
         <div class="col-xs-0 col-md-2"></div>
         <div class="col-xs-12 col-md-8">
             <div class="media">
-              <a class="pull-left" href="#">
+              <a href="#">
                 <img class="media-object" src="/images/JohanPeeters.png" alt="Johan Peeters" title="Johan Peeters"/>
               </a>
               {{ content}}
