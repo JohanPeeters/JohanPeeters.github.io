@@ -18,8 +18,9 @@
         </style>
     </head>
     <body>
-        <div class="navbar navbar-default">
+      <div class="container">
           <div class="container-fluid">
+            <div class="row">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
                       <span class="sr-only">Toggle navigation</span>
@@ -28,10 +29,9 @@
                       <span class="icon-bar"></span>
                     </button>
             </div>
-            <div class="row">
-            <div class="col-xs-0 col-md-2"></div>
-            <div class="col-xs-12 col-md-8">
-              <div class="collapse navbar-collapse" id="menu">
+              <div class="col-xs-0 col-md-2"></div>
+              <div class="col-xs-12 col-md-8 navbar">
+            <div class="collapse navbar-collapse" id="menu">
                         <ul class="nav nav-justified">
                             <li id="contact">
                                 <a  href="/contact.html"title="Contact Johan Peeters bvba">contact</a>
@@ -45,13 +45,12 @@
                             <li id="blog">
                                 <a  href="http://secappdev-org.blogspot.be/" title="Blog">blog</a>
                             </li>
-                        </ul>
-                    </div>
-                  </div>
-                </div>
+                          </ul>
+                        </div>
+              <div class="col-xs-0 col-md-2"></div>
             </div>
           </div>
-        </div>
+          </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-0 col-md-2"></div>
