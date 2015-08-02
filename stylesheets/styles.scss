@@ -67,6 +67,15 @@ img {
   }
 }
 
+.navbar-default {
+  background-image: none;
+  background-color: white;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+}
+
 .navbar-collapse {
   padding: 0;
 }
