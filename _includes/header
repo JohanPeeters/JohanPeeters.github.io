@@ -34,19 +34,22 @@
             <div class="collapse navbar-collapse" id="menu">
                         <ul class="nav nav-justified">
                             <li id="contact">
-                                <a  href="/contact.html"title="Contact Johan Peeters bvba">contact</a>
+                                <a  href="/contact.html" title="Contact Johan Peeters bvba">contact</a>
                             </li>
                             <li id="cv" class="dropdown" role="presentation">
-                            <a  href="/cv.html" data-target="#" title="CV" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+                            <a  href="/cv.html" title="CV" class="dropdown-toggle" role="link button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
                               cv <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="cv">
+                              <li id="summary">
+                                <a href="/cv.html">summary</a>
+                              </li>
                               <li id="academic">
-                                <a>academic</a>
-                                </li>
-                                <li id="professional">
-                                <a>professional</a>
-                                </li>
+                              <a href="/cv/academic.html">academic</a>
+                              </li>
+                              <li id="professional">
+                                <a href="/cv/index.html">professional</a>
+                              </li>
                             </ul>
                             </li>
                             <li id="portfolio">
