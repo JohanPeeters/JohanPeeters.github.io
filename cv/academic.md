@@ -1,6 +1,6 @@
 ---
 
-        layout: cv
+        layout: page
         title: Academic Qualifications
         permalink: /cv/academic.html
         main_category: cv
