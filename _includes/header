@@ -36,8 +36,18 @@
                             <li id="contact">
                                 <a  href="/contact.html"title="Contact Johan Peeters bvba">contact</a>
                             </li>
-                            <li id="cv">
-                                <a  href="/cv.html" title="CV">cv</a>
+                            <li id="cv" class="dropdown" role="presentation">
+                            <a  href="/cv.html" data-target="#" title="CV" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+                              cv <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="cv">
+                              <li id="academic">
+                                <a>academic</a>
+                                </li>
+                                <li id="professional">
+                                <a>professional</a>
+                                </li>
+                            </ul>
                             </li>
                             <li id="portfolio">
                                 <a  href="/portfolio.html" title="Portfolio">portfolio</a>
