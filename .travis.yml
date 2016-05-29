@@ -2,4 +2,6 @@ language: ruby
 rvm:
 - 2.3.1
 
+script: jekyll build
+
 sudo: false # route build to the container-based infrastructure for a faster build
