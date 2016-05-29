@@ -1,0 +1,5 @@
+language: ruby
+rvm:
+- 2.3
+
+sudo: false # route build to the container-based infrastructure for a faster build
