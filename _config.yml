@@ -1,4 +1,4 @@
-exclude: [Gemfile, Gemfile.lock, params.json, README.md]
+exclude: [Gemfile, Gemfile.lock, params.json, README.md, Rakefile, scripts]
 relative_permalinks: false
 permalink: /:title/
 paginate: 3
