@@ -4,8 +4,9 @@ layout: page
 <h3>{{ page.title }} {{ page.date | date: "%B %Y" }} - {{ page.end | date : "%B %Y" }}</h3>
 
 {{ content }}
-
-   {% if page.previous.url %}
+  
+        <div>
+        {% if page.previous.url %}
                 <a href="{{page.previous.url}}" title="Previous Post:
 {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
         {% endif %}
