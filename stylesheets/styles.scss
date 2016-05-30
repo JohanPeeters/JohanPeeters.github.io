@@ -30,15 +30,11 @@ ul {
      left: 1em;
    }
    &.nav {
-     text-transform: capitalize;
+     text-transform: uppercase;
      background-image: none;
      border: none;
      background-color: $font-color;
   }
-}
-
-.dropdown-menu {
-  background-color: $font-color;
 }
 
 a {
