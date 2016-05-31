@@ -1,8 +1,6 @@
 exclude: [Gemfile, Gemfile.lock, params.json, README.md, Rakefile]
 relative_permalinks: false
 permalink: /:title/
-paginate: 3
-paginate_path: "/cv/page:num"
 gems:
   - jekyll-sitemap
 sass:
