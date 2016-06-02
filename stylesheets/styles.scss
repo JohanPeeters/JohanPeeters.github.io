@@ -1,6 +1,5 @@
 ---
 ---
-@import "bootstrap.min.css", "bootstrap-theme.min.css";
 
 $font-color: #7f7868;
 $link-color: #d5000d;
@@ -8,6 +7,8 @@ $color-shift: #100001;
 $hovered-link-color: $link-color - $color-shift;
 $max-img-width: 8.73em;
 $ul-padding-left: 0.15em;
+
+@import "bootstrap";
 
 html {
   font-size: 100%;
