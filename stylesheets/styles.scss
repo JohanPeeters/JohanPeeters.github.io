@@ -1,14 +1,15 @@
 ---
 ---
 
+@import "bootstrap";
+
+$menu-font-size: 0.5em;
 $font-color: #7f7868;
 $link-color: #d5000d;
 $color-shift: #100001;
 $hovered-link-color: $link-color - $color-shift;
 $max-img-width: 8.73em;
 $ul-padding-left: 0.15em;
-
-@import "bootstrap";
 
 html {
   font-size: 100%;
@@ -35,6 +36,8 @@ ul {
      background-image: none;
      border: none;
      background-color: $font-color;
+     font-size: $menu-font-size;
+     padding-top: $menu-font-size * 3;
   }
 }
 
@@ -79,7 +82,7 @@ img {
 
 .nav {
   li {
-    left: 0;
+    float: right;
     a {
       color: white;
       }
