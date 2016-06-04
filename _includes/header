@@ -11,15 +11,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="content-type" content="text/html;"/>
         <style type="text/css">
-            #{{page.main_category}}, #{{page.main_category}} li {
-                background-color: #777;
-                color: #303030;
-            }
+          #{{page.main_category}}, #{{page.main_category}} a {
+            color: rgb(116, 170, 171);
+          }
         </style>
     </head>
     <body>
       <div class="container">
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <div class="row">
             <div class="navbar-header">
@@ -33,18 +32,18 @@
               <div class="col-xs-0 col-md-2"></div>
               <div class="col-xs-12 col-md-8">
             <div class="collapse navbar-collapse" id="menu">
-                        <ul class="nav">
-                            <li id="contact">
-                                <a  href="/contact/" title="Contact Johan Peeters bvba">contact</a>
-                            </li>
-                            <li id="blog">
-                                <a  href="http://secappdev-org.blogspot.be/" title="Blog">blog</a>
+                        <ul class="nav navbar-nav navbar-right">
+                           <li id="home">
+                                <a class="navbar-link" href="/" title="Home">Home</a>
                             </li>
                             <li id="cv">
-                                <a  href="/cv/" title="Download CV">cv</a>
+                                <a  class="navbar-link" href="/cv/" title="Download CV">cv</a>
                             </li>
-                           <li id="home">
-                                <a href="/" title="Home">Home</a>
+                            <li id="blog">
+                                <a  class="navbar-link" href="http://secappdev-org.blogspot.be/" title="Blog">blog</a>
+                            </li>
+                            <li id="contact">
+                                <a  class="navbar-link" href="/contact/" title="Contact Johan Peeters bvba">contact</a>
                             </li>
                           </ul>
                         </div>

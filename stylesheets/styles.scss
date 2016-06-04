@@ -1,11 +1,16 @@
 ---
 ---
+$brand-primary: rgb(116, 170, 171);
+$link-hover-decoration: none;
+$navbar-inverse-link-color: white;
+$navbar-inverse-link-active-color: $brand-primary;
+$navbar-inverse-link-hover-color: $brand-primary;
+$navbar-inverse-bg: rgb(64, 64, 64);
 
 @import "bootstrap";
 
 $menu-font-size: 0.5em;
-$font-color: #7f7868;
-$link-color: #d5000d;
+$font-color: #414141;
 $color-shift: #100001;
 $hovered-link-color: $link-color - $color-shift;
 $max-img-width: 8.73em;
@@ -31,26 +36,19 @@ ul {
      position: relative;
      left: 1em;
    }
-   &.nav {
+   &.navbar-nav {
+     list-style-type: none;
      text-transform: uppercase;
-     background-image: none;
      border: none;
-     background-color: $font-color;
      font-size: $menu-font-size;
      padding-top: $menu-font-size * 3;
-  }
+   }
 }
 
 a {
-  color: $link-color;
   text-decoration: none;
   &:hover {
     color: $hovered-link-color;
-  }
-  &.navbar-left {
-    &:hover {
-      text-decoration: none;
-    }
   }
 }
 
@@ -63,30 +61,10 @@ img {
 .media {
   -webkit-column-count: 2;
   column-count: 2;
-  p, ul {
-  }
-}
-
-.navbar-default {
-  background-image: none;
-  background-color: white;
-  box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  border: none;
 }
 
 .navbar-collapse {
   padding: 0;
-}
-
-.nav {
-  li {
-    float: right;
-    a {
-      color: white;
-      }
-     } 
 }
 
 @media only screen
