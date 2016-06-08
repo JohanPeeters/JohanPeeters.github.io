@@ -3,15 +3,16 @@
 $border-radius-base: 0em;
 $brand-primary: rgb(116, 170, 171);
 $link-hover-decoration: none;
+$gray-base: rgb(100, 100, 100);
 $navbar-inverse-link-color: white;
 $navbar-inverse-link-active-color: $brand-primary;
 $navbar-inverse-link-hover-color: $brand-primary;
 $navbar-inverse-bg: rgb(64, 64, 64);
+$font-family-sans-serif: Helvetica, Arial, sans-serif;
 
 @import "bootstrap";
 
 $menu-font-size: 0.5em;
-$font-color: #414141;
 $color-shift: #100001;
 $hovered-link-color: $link-color - $color-shift;
 $max-img-width: 8.73em;
@@ -21,14 +22,16 @@ html {
   font-size: 100%;
 }
 
+.summary {
+  text-align: center;
+}
+
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
-    color: $font-color;
     line-height: 1.2;
     font-size: 2.5em;
     margin-top: 0.25em;
-    padding-top: 43px;
 }
 
 ul {

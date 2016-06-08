@@ -5,7 +5,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
     <head>
         <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
-        <title>Johan Peeters bvba: {{page.title}}</title>
+       <title>Johan Peeters bvba: {{page.title}}</title>
         <meta name="author" content="Johan Peeters"/>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,22 +50,19 @@
               <div class="col-xs-0 col-md-2"></div>
             </div>
           </div>
-        </div>
-        </nav>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-0 col-md-2"></div>
-                <div class="col-xs-12 col-md-8">
-                    <a href="/">
-                        <h1 class="page-header">
-                            JOHAN PEETERS bvba
-                        </h1>
-                    </a>
-                    <p>
+          <div class="row summary">
+            <div class="col-xs-0 col-md-2"></div>
+            <div class="col-xs-12 col-md-8">
+              <h1>
+                JOHAN PEETERS 
+                <small>BVBA</small>
+              </h1>
+              <p>
 I am an independent software consultant and contractor.
 My expertise ranges from product definition to development.
-I have helped major companies such as [Belgacom](http://www.belgacom.be), <a href="http://www.nbb.be" target="new">NBB/BNB</a> (the Belgian central bank), <a href="http://www.philips.com" target="new">Philips</a>, <a href="http://www.proximus.be" target="new">Proximus</a>, the <a href="http://www.post.be/" target="new">Belgian Post Group</a>, <a href="http://www.vrt.be" target="new">VRT</a> and <a href="http://www.banksys.be" target="new">Banksys</a> as well as SME's.
-                    </p>
-                </div>
-                <div class="col-xs-0 col-md-2"></div>
+I have helped major companies such as <a href="http://www.nbb.be" target="new">NBB/BNB</a> (the Belgian central bank), <a href="http://www.philips.com" target="new">Philips</a>, <a href="http://www.proximus.be" target="new">Proximus</a>, the <a href="http://www.post.be/" target="new">Belgian Post Group</a>, <a href="http://www.vrt.be" target="new">VRT</a> and <a href="http://www.banksys.be" target="new">Banksys</a> as well as SME's.
+                </p>
             </div>
+            <div class="col-xs-0 col-md-2"></div>
+          </div>
+        </nav>
