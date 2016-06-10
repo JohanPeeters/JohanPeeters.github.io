@@ -5,7 +5,8 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
     <head>
         <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
-       <title>Johan Peeters bvba: {{page.title}}</title>
+        <link href='https://fonts.googleapis.com/css?family=Gudea:400,700' rel='stylesheet' type='text/css'>
+        <title>Johan Peeters bvba: {{page.title}}</title>
         <meta name="author" content="Johan Peeters"/>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,6 @@
     <body>
       <div class="container">
         <nav class="navbar navbar-inverse">
-          <div class="container-fluid">
             <div class="row">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
@@ -53,10 +53,14 @@
           <div class="row summary">
             <div class="col-xs-0 col-md-2"></div>
             <div class="col-xs-12 col-md-8">
+              <div class="header">
               <h1>
-                JOHAN PEETERS 
-                <small>BVBA</small>
+                JOHAN PEETERS
               </h1>
+                <div class="bvba"> 
+                  BVBA
+                </div>
+              </div>
               <p>
 I am an independent software consultant and contractor.
 My expertise ranges from product definition to development.

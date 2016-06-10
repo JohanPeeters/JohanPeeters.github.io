@@ -4,13 +4,16 @@ $border-radius-base: 0em;
 $brand-primary: rgb(116, 170, 171);
 $link-hover-decoration: none;
 $gray-base: rgb(100, 100, 100);
+$text-color: $gray-base;
 $navbar-inverse-link-color: white;
 $navbar-inverse-link-active-color: $brand-primary;
 $navbar-inverse-link-hover-color: $brand-primary;
 $navbar-inverse-bg: rgb(64, 64, 64);
-$font-family-sans-serif: Helvetica, Arial, sans-serif;
+$font-family-sans-serif: Rubik, Helvetica, Arial, sans-serif;
 
 @import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,700);
+@import url(https://fonts.googleapis.com/css?family=Monda:400,700);
 
 $menu-font-size: 0.5em;
 $color-shift: #100001;
@@ -26,12 +29,24 @@ html {
   text-align: center;
 }
 
+.header {
+  display: inline-flex;
+  flex-direction: column;
+}
+
 h1 {
     font-weight: 900;
-    letter-spacing: -0.05em;
+    color: $gray-dark;
     line-height: 1.2;
-    font-size: 2.5em;
     margin-top: 0.25em;
+    display: inline-flex;
+    small {
+      color: $gray-dark;
+    }
+}
+
+.bvba {
+  text-align: right;
 }
 
 ul {
