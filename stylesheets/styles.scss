@@ -5,10 +5,13 @@ $brand-primary: rgb(116, 170, 171);
 $link-hover-decoration: none;
 $gray-base: rgb(100, 100, 100);
 $text-color: $gray-base;
+$navbar-height: 75px;
 $navbar-inverse-link-color: white;
 $navbar-inverse-link-active-color: $brand-primary;
 $navbar-inverse-link-hover-color: $brand-primary;
 $navbar-inverse-bg: rgb(64, 64, 64);
+$navbar-inverse-border: $navbar-inverse-bg;
+$navbar-margin-bottom: 0;
 $font-family-sans-serif: Hack, Rubik, Helvetica, Arial, sans-serif;
 
 @import "bootstrap";
@@ -32,6 +35,7 @@ html {
 
 .summary {
   text-align: center;
+  background-color: $navbar-inverse-bg;
   p {
     margin: 1.5em 0;
     font-family: Monda;
