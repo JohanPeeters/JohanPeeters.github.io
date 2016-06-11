@@ -9,11 +9,12 @@ $navbar-inverse-link-color: white;
 $navbar-inverse-link-active-color: $brand-primary;
 $navbar-inverse-link-hover-color: $brand-primary;
 $navbar-inverse-bg: rgb(64, 64, 64);
-$font-family-sans-serif: Rubik, Helvetica, Arial, sans-serif;
+$font-family-sans-serif: Hack, Rubik, Helvetica, Arial, sans-serif;
 
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,700);
 @import url(https://fonts.googleapis.com/css?family=Monda:400,700);
+@import url(https://cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css);
 
 $menu-font-size: 0.5em;
 $color-shift: #100001;
