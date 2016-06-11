@@ -5,7 +5,6 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
     <head>
         <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
-        <link href='https://fonts.googleapis.com/css?family=Gudea:400,700' rel='stylesheet' type='text/css'>
         <title>Johan Peeters bvba: {{page.title}}</title>
         <meta name="author" content="Johan Peeters"/>
         <meta charset="UTF-8"/>
@@ -18,38 +17,39 @@
         </style>
     </head>
     <body>
-      <div class="container-fluid">
-        <nav class="navbar navbar-inverse">
-            <div class="row">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="row">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
             </div>
-              <div class="col-xs-0 col-md-2"></div>
-              <div class="col-xs-12 col-md-8">
-            <div class="collapse navbar-collapse" id="menu">
-                        <ul class="nav navbar-nav navbar-right">
-                           <li id="home">
-                                <a class="navbar-link" href="/" title="Home">Home</a>
-                            </li>
-                            <li id="cv">
-                                <a  class="navbar-link" href="/cv/" title="Download CV">cv</a>
-                            </li>
-                            <li id="blog">
-                                <a  class="navbar-link" href="http://secappdev-org.blogspot.be/" title="Blog">blog</a>
-                            </li>
-                            <li id="contact">
-                                <a  class="navbar-link" href="/contact/" title="Contact Johan Peeters bvba">contact</a>
-                            </li>
-                          </ul>
-                        </div>
-              <div class="col-xs-0 col-md-2"></div>
+            <div class="col-xs-2 col-md-2"></div>
+            <div class="col-xs-8 col-md-8 collapse navbar-collapse navbar-right" id="menu">
+              <ul class="nav navbar-nav">
+                <li id="home">
+                  <a class="navbar-link" href="/" title="Home">Home</a>
+                </li>
+                <li id="cv">
+                  <a  class="navbar-link" href="/cv/" title="Download CV">cv</a>
+                </li>
+                <li id="blog">
+                  <a  class="navbar-link" href="http://secappdev-org.blogspot.be/" title="Blog">blog</a>
+                </li>
+                <li id="contact">
+                  <a  class="navbar-link" href="/contact/" title="Contact Johan Peeters bvba">contact</a>
+                </li>
+              </ul>
             </div>
+            <div class="col-xs-2 col-md-2"></div>
           </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
           <div class="row summary">
             <div class="col-xs-0 col-md-2"></div>
             <div class="col-xs-12 col-md-8">
@@ -69,4 +69,4 @@ I have helped major companies such as <a href="http://www.nbb.be" target="new">N
             </div>
             <div class="col-xs-0 col-md-2"></div>
           </div>
-        </nav>
+        </div>

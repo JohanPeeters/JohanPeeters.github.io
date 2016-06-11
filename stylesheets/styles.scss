@@ -56,17 +56,16 @@ html {
 }
 
 ul {
-   padding-left: $ul-padding-left;
-   li {
-     position: relative;
-     left: 1em;
-   }
-   &.navbar-nav {
-     list-style-type: none;
-     text-transform: uppercase;
-     border: none;
-     font-size: $menu-font-size;
-   }
+  padding-left: $ul-padding-left;
+  li {
+    position: relative;
+    left: 1em;
+  }
+  &.navbar-nav {
+    text-transform: uppercase;
+    border: none;
+    font-size: $menu-font-size;
+  }
 }
 
 a {
