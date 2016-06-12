@@ -28,9 +28,8 @@
                 <span class="icon-bar"></span>
               </button>
             </div>
-            <div class="col-xs-0 col-sm-2 col-md-2"></div>
-            <div class="col-xs-12 col-sm-8 col-md-8" id="menu">
-              <ul class="nav navbar-nav navbar-right navbar-collapse">
+            <div class="navbar-collapse collapse" id="menu">
+              <ul class="nav navbar-nav navbar-right">
                 <li id="home">
                   <a class="navbar-link" href="/" title="Home">Home</a>
                 </li>
@@ -45,7 +44,6 @@
                 </li>
               </ul>
             </div>
-            <div class="col-xs-0 col-sm-2 col-md-2"></div>
           </div>
         </div>
       </nav>

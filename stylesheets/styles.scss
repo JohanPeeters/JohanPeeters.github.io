@@ -12,7 +12,7 @@ $navbar-inverse-link-hover-color: $brand-primary;
 $navbar-inverse-bg: rgb(64, 64, 64);
 $navbar-inverse-border: $navbar-inverse-bg;
 $navbar-margin-bottom: 0;
-$font-family-sans-serif: Hack, Rubik, Helvetica, Arial, sans-serif;
+$font-family-sans-serif: Rubik, Helvetica, Arial, sans-serif;
 
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,700);
@@ -31,6 +31,14 @@ $ul-padding-left: 0.15em;
 
 html {
   font-size: 100%;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.navbar-collapse.in {
+  overflow-y: visible;
 }
 
 .summary {
@@ -60,7 +68,6 @@ html {
 }
 
 ul {
-  padding-left: $ul-padding-left;
   li {
     position: relative;
     left: 1em;
@@ -96,7 +103,7 @@ img {
 
 @media (min-width: 768px) {
   .navbar-right {
-    margin-right: 2em;
+    margin-right: 4em;
   }
 }
 
