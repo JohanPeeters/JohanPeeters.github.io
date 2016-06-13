@@ -6,50 +6,49 @@
 
 ---
 <div class="row">
-<div class="col-xs-0 col-sm-2"></div>
-<div class="col-xs-3 col-sm-2">
-  <span class="glyphicon glyphicon-off">
-    product definition
-  </span>
-</div>
-<div class="col-xs-3 col-sm-2">
-  <span class="glyphicon glyphicon-off">
- requirements engineering,
-  </span>
-</div>
-<div class="col-xs-3 col-sm-2">
-  <span class="glyphicon glyphicon-off">
- specifications,
-  </span>
-</div>
-<div class="col-xs-3 col-sm-2">
-  <span class="glyphicon glyphicon-off">
- architecture,
-  </span>
-</div>
-<div class="col-xs-0 col-sm-2"></div>
+  <div class="col-xs-0 col-sm-2"></div>
+  <div class="col-xs-3 col-sm-2 glyphicon glyphicon-off">
+    <div>
+      product definition
+    </div>
+  </div>
+  <div class="col-xs-3 col-sm-2 glyphicon glyphicon-off">
+    <div>
+      requirements engineering,
+    </div>
+  </div>
+  <div class="col-xs-3 col-sm-2 glyphicon glyphicon-off">
+    <div>
+      specifications,
+    </div>
+  </div>
+  <div class="col-xs-3 col-sm-2 glyphicon glyphicon-off">
+    <div>
+      architecture,
+    </div>
+  </div>
 </div>
 <div class="row">
-<div class="col-xs-0 col-sm-2"></div>
-<div class="col-xs-3 col-sm-2">
-  <span class="glyphicon glyphicon-off">
- design,
-  </span>
-</div>
-<div class="col-xs-3 col-sm-2">
-  <span class="glyphicon glyphicon-off">
+  <div class="col-xs-0 col-sm-2"></div>
+  <div class="col-xs-3 col-sm-2 glyphicon glyphicon-off">
+    <div>
+      design,
+    </div>
+  </div>
+<div class="col-xs-3 col-sm-2 glyphicon glyphicon-off">
+  <div>
  implementation,
-  </span>
+  </div>
 </div>
-<div class="col-xs-3 col-sm-2">
-  <span class="glyphicon glyphicon-off">
+<div class="col-xs-3 col-sm-2 glyphicon glyphicon-off">
+  <div>
  acceptance testing,
-  </span>
+  </div>
 </div>
-<div class="col-xs-3 col-sm-2">
-  <span class="glyphicon glyphicon-off">
+<div class="col-xs-3 col-sm-2 glyphicon glyphicon-off">
+  <div>
  mentoring and coaching.
-  </span>
+  </div>
 </div>
 <div class="col-xs-0 col-sm-2"></div>
 </div>

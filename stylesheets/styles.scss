@@ -20,17 +20,14 @@ $font-family-sans-serif: Rubik, Helvetica, Arial, sans-serif;
 @import url(https://cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css);
 
 $menu-font-size: 0.5em;
-$color-shift: #100001;
-$hovered-link-color: $link-color - $color-shift;
 $max-img-width: 8.73em;
-$ul-padding-left: 0.15em;
-
-.container-fluid {
-  padding: 0;
-}
 
 html {
   font-size: 100%;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .navbar-nav {
@@ -79,17 +76,21 @@ ul {
   }
 }
 
-a {
-  text-decoration: none;
-  &:hover {
-    color: $hovered-link-color;
-  }
-}
-
 img {
     float: left;
     max-width: $max-img-width;
     margin-right: 0.5em;
+}
+
+.glyphicon {
+  margin-top: 3em;
+  font-variant: small-caps;
+  text-align: center;
+  div {
+    font-family: Monda;
+    font-weight: bold;
+    margin-top: 1em;
+  }
 }
 
 .media {
