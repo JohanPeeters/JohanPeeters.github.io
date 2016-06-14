@@ -62,8 +62,8 @@
 </div>
 <div class="row download text-center">
   <div class="btn-group" role="group" aria-label="cv">
-    <a role="button" href="/cv/cv.pdf" class="btn btn-default" download>download my cv</a>
-    <a role="button" href="/cv/cv.pdf" class="btn btn-primary" download><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
+    <a role="button" href="/cv/CV.pdf" class="btn btn-default" download>download my cv</a>
+    <a role="button" href="/cv/CV.pdf" class="btn btn-primary" download><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a>
   </div>
 </div>
 <div class="row invite-contact text-center">
