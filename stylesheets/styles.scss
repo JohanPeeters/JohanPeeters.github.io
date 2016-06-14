@@ -16,10 +16,12 @@ $font-family-sans-serif: Rubik, Helvetica, Arial, sans-serif;
 $btn-default-color: $brand-primary;
 $btn-default-border: $brand-primary;
 
+$fa-font-path:        "../fonts/font-awesome";
+
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,700);
 @import url(https://fonts.googleapis.com/css?family=Monda:400,700);
-@import url(https://cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css);
+@import "font-awesome/font-awesome";
 
 $menu-font-size: 0.5em;
 $max-img-width: 8.73em;
@@ -79,6 +81,10 @@ html {
 }
 
 .invite-contact {
+}
+
+.fa {
+  font-size: x-large;
 }
 
 ul {

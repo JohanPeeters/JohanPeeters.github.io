@@ -69,6 +69,3 @@
 <div class="row invite-contact text-center">
     <a href="mailto:yo@johanpeeters.com">Contact me</a> to discuss how I can help you achieve your goals.
 </div>
-<div class="row text-center">
-    <a href="mailto:yo@johanpeeters.com" class="glyphicon glyphicon-envelope" aria-hidden="true"></a>
-</div>

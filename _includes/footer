@@ -1,4 +1,11 @@
-
+<div class="container-fluid">
+<div class="row text-center">
+    <a href="mailto:yo@johanpeeters.com" class="fa fa-envelope-o" aria-hidden="true"></a>
+    <a href="mailto:yo@johanpeeters.com" class="fa fa-github" aria-hidden="true"></a>
+    <a href="mailto:yo@johanpeeters.com" class="fa fa-linkedin" aria-hidden="true"></a>
+    <a href="mailto:yo@johanpeeters.com" class="fa fa-twitter" aria-hidden="true"></a>
+</div>
+</div>
     <script src="/javascript/jquery-1.10.2.min.js"></script>
     <script src="/javascript/bootstrap.min.js"></script>
     <script>
