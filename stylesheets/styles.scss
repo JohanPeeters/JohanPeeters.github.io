@@ -13,6 +13,8 @@ $navbar-inverse-bg: rgb(64, 64, 64);
 $navbar-inverse-border: $navbar-inverse-bg;
 $navbar-margin-bottom: 0;
 $font-family-sans-serif: Rubik, Helvetica, Arial, sans-serif;
+$btn-default-color: $brand-primary;
+$btn-default-border: $brand-primary;
 
 @import "bootstrap";
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,700);
@@ -39,7 +41,6 @@ html {
 }
 
 .summary {
-  text-align: center;
   background-color: $navbar-inverse-bg;
   p {
     margin: 1.5em 0;
@@ -64,13 +65,28 @@ html {
   }
 }
 
+.download {
+  font-variant: small-caps;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  .btn {
+    font-size: initial;
+  }
+  .glyphicon {
+    font-size: initial;
+    color: white;
+  }
+}
+
+.invite-contact {
+}
+
 ul {
   li {
     position: relative;
     left: 1em;
   }
   &.navbar-nav {
-    text-transform: uppercase;
     border: none;
     font-size: $menu-font-size;
   }
@@ -82,15 +98,19 @@ img {
     margin-right: 0.5em;
 }
 
-.glyphicon {
+.service {
   margin-top: 3em;
   font-variant: small-caps;
-  text-align: center;
   div {
     font-family: Monda;
-    font-weight: bold;
     margin-top: 1em;
+    line-height: 1em;
   }
+}
+
+.glyphicon {
+  font-size: x-large;
+  color: $gray;
 }
 
 .media {

@@ -29,7 +29,7 @@
               </button>
             </div>
             <div class="navbar-collapse collapse" id="menu">
-              <ul class="nav navbar-nav navbar-right">
+              <ul class="nav navbar-nav navbar-right text-uppercase">
                 <li id="home">
                   <a class="navbar-link" href="/" title="Home">Home</a>
                 </li>
@@ -48,7 +48,7 @@
         </div>
       </nav>
       <div class="container-fluid">
-        <div class="row summary">
+        <div class="row summary text-center">
           <div class="col-xs-0 col-sm-2"></div>
           <div class="col-xs-12 col-sm-8">
             <div class="header">
