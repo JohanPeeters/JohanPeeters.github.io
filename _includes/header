@@ -34,10 +34,10 @@
                   <a class="navbar-link" href="/" title="Home">Home</a>
                 </li>
                 <li id="cv">
-                  <a  class="navbar-link" href="/cv/" title="Download CV">cv</a>
+                  <a  class="navbar-link" href="/cv/" title="CV">cv</a>
                 </li>
                 <li id="blog">
-                  <a  class="navbar-link" href="http://secappdev-org.blogspot.be/" title="Blog">blog</a>
+                  <a  class="navbar-link" href="/blog" title="Blog">blog</a>
                 </li>
                 <li id="contact">
                   <a  class="navbar-link" href="/contact/" title="Contact Johan Peeters bvba">contact</a>
@@ -62,7 +62,7 @@
             <p>
 I am an independent software consultant and contractor.
 My expertise ranges from product definition to development.
-I have helped major companies such as <a href="http://www.nbb.be" target="new">NBB/BNB</a> (the Belgian central bank), <a href="http://www.philips.com" target="new">Philips</a>, <a href="http://www.proximus.be" target="new">Proximus</a>, the <a href="http://www.post.be/" target="new">Belgian Post Group</a>, <a href="http://www.vrt.be" target="new">VRT</a> and <a href="https://mypaymentsolution.be" target="new">Banksys</a> as well as SME's.
+I have helped major corporations such as <a href="http://www.nbb.be" target="new">NBB/BNB</a> (the Belgian central bank), <a href="http://www.philips.com" target="new">Philips</a>, <a href="http://www.proximus.be" target="new">Proximus</a>, <a href="http://www.post.be/" target="new">bpost</a>, <a href="http://www.vrt.be" target="new">VRT</a> and <a href="https://www.colruytgroup.com" target="new">Colruyt</a> as well as SME's.
             </p>
           </div>
           <div class="col-xs-0 col-sm-2"></div>

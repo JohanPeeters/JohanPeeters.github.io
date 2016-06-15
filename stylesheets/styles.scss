@@ -30,6 +30,10 @@ html {
   font-size: 100%;
 }
 
+hr {
+  border-top-color: $gray-light;
+}
+
 .container-fluid {
   padding: 0;
 }
@@ -67,6 +71,10 @@ html {
   }
 }
 
+.footer {
+  color: $gray-light;
+}
+
 .download {
   font-variant: small-caps;
   margin-top: 3em;
@@ -85,6 +93,7 @@ html {
 
 .fa {
   font-size: x-large;
+  margin: 2em 1em;
 }
 
 ul {
@@ -117,11 +126,6 @@ img {
 .glyphicon {
   font-size: x-large;
   color: $gray;
-}
-
-.media {
-  -webkit-column-count: 2;
-  column-count: 2;
 }
 
 .navbar-collapse {

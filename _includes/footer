@@ -1,10 +1,20 @@
-<div class="container-fluid">
-<div class="row text-center">
+<div class="container-fluid footer">
+  <div class="row">
+    <div class="col-xs-0 col-sm-2"></div>
+    <div class="col-xs-12 col-sm-8">
+<div class="text-center">
     <a href="mailto:yo@johanpeeters.com" class="fa fa-envelope-o" aria-hidden="true"></a>
-    <a href="mailto:yo@johanpeeters.com" class="fa fa-github" aria-hidden="true"></a>
-    <a href="mailto:yo@johanpeeters.com" class="fa fa-linkedin" aria-hidden="true"></a>
-    <a href="mailto:yo@johanpeeters.com" class="fa fa-twitter" aria-hidden="true"></a>
+    <a href="https://github.com/JohanPeeters" class="fa fa-github" aria-hidden="true"></a>
+    <a href="https://www.linkedin.com/in/johanpeeters" class="fa fa-linkedin" aria-hidden="true"></a>
+    <a href="https://twitter.com/YoPeeters" class="fa fa-twitter" aria-hidden="true"></a>
 </div>
+<hr>
+<p class="text-center">
+  &copy; Johan Peeters - 2016
+<p>
+    </div>
+    <div class="col-xs-0 col-sm-2"></div>
+  </div>
 </div>
     <script src="/javascript/jquery-1.10.2.min.js"></script>
     <script src="/javascript/bootstrap.min.js"></script>
