@@ -83,7 +83,6 @@ hr {
     font-size: initial;
   }
   .glyphicon {
-    font-size: initial;
     color: white;
   }
 }
@@ -95,9 +94,6 @@ hr {
   font-size: x-large;
   margin: 0 1em;
   color: $gray;
-  &:before {
-    font-size: 28px;
-  }
 }
 
 .social-media-links {
@@ -129,11 +125,6 @@ img {
     margin-top: 1em;
     line-height: 1em;
   }
-}
-
-.glyphicon {
-  font-size: x-large;
-  color: $gray;
 }
 
 .navbar-collapse {
