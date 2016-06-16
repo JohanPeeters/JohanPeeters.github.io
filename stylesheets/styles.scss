@@ -93,7 +93,15 @@ hr {
 
 .fa {
   font-size: x-large;
-  margin: 2em 1em;
+  margin: 0 1em;
+  color: $gray;
+  &:before {
+    font-size: 28px;
+  }
+}
+
+.social-media-links {
+  margin: 2em 0;
 }
 
 ul {
