@@ -6,14 +6,14 @@ main_category: blog
 
 <div class="row">
   <div class="col-xs-0 col-sm-2"></div>
-  <div class="col-xs-12 col-sm-8 media">
+  <div class="col-xs-12 col-sm-8">
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="author">
+    <p>
       <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
     </p>
-    <div class="content">
+    <div class="media">
       {{ post.excerpt }}
       <a href="{{ post.url }}">more...</a>
     </div>
