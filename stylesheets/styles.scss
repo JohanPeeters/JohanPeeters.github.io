@@ -119,6 +119,8 @@ img {
     float: left;
     max-width: $max-img-width;
     margin-right: 0.5em;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
 .service {
