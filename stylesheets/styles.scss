@@ -118,7 +118,7 @@ ul {
 img {
     float: left;
     max-width: $max-img-width;
-    margin-right: 0.5em;
+    margin-right: 0.75em;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
@@ -137,6 +137,12 @@ img {
   padding: 0;
 }
 
+.media-body {
+  overflow: visible;
+  width: auto;
+  display: block;
+}
+
 @media (min-width: $screen-sm-min) {
   .navbar-right {
     margin-right: 4em;
@@ -144,7 +150,7 @@ img {
 }
 
 @media (min-width : $screen-md-min) {
-    .media {
+    .media-body {
       column-count: 2;
     }
 }
