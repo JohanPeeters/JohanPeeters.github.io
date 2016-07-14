@@ -1,5 +1,6 @@
 ---
 ---
+$font-size-base: 16px;
 $border-radius-base: 0em;
 $brand-primary: rgb(116, 170, 171);
 $link-hover-decoration: none;
@@ -25,10 +26,6 @@ $fa-font-path:        "../fonts/font-awesome";
 
 $menu-font-size: 0.75em;
 $max-img-width: 8.73em;
-
-html {
-  font-size: 100%;
-}
 
 hr {
   border-top-color: $gray-light;
@@ -64,7 +61,6 @@ hr {
   h1 {
     font-weight: 900;
     color: $gray-dark;
-    margin-top: 0.25em;
     display: inline-flex;
     margin-bottom: -0.125em;
   }
