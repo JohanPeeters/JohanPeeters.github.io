@@ -4,9 +4,9 @@
     <div class="col-xs-12 col-sm-8">
 <div class="text-center social-media-links">
     <a href="mailto:yo@johanpeeters.com" class="fa fa-envelope-o" aria-hidden="true"></a>
-    <a href="https://github.com/JohanPeeters" class="fa fa-github" aria-hidden="true"></a>
-    <a href="https://www.linkedin.com/in/JohanPeeters" class="fa fa-linkedin" aria-hidden="true"></a>
-    <a href="https://twitter.com/YoPeeters" class="fa fa-twitter" aria-hidden="true"></a>
+    <a href="https://github.com/JohanPeeters" class="fa fa-github" aria-hidden="true" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/JohanPeeters" class="fa fa-linkedin" aria-hidden="true" target="_blank"></a>
+    <a href="https://twitter.com/YoPeeters" class="fa fa-twitter" aria-hidden="true" target="_blank"></a>
 </div>
 <hr>
 <p class="text-center">

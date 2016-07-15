@@ -37,7 +37,7 @@
                   <a  class="navbar-link" href="/cv/" title="CV">cv</a>
                 </li>
                 <li id="blog">
-                  <a  class="navbar-link" href="https://yo1peeters.blogspot.com" title="Blog">blog</a>
+                  <a  class="navbar-link" href="https://yo1peeters.blogspot.com" title="Blog" target="_blank">blog</a>
                 </li>
                 <li id="contact">
                   <a  class="navbar-link" href="/contact/" title="Contact Johan Peeters bvba">contact</a>
