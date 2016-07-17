@@ -155,3 +155,20 @@ td {
       column-count: 2;
     }
 }
+
+.popover {
+    background:$brand-primary;
+    text-align: center;
+    color:#fff !important;
+    z-index:2;
+    border: none;
+}
+
+.popover-arrow {
+  height: 0px;
+  background: $brand-primary;
+}
+
+div:focus {
+  outline: none;
+}
