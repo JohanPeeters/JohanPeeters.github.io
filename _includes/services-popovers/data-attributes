@@ -1,0 +1,9 @@
+
+    data-toggle="popover"
+    data-trigger="focus"
+    data-template="{% include services-popovers/popover-template %}"
+    data-content="{% include services-popovers/{{service}} %}"
+    data-placement="bottom"
+    tabindex="1"
+
+    {% assign service = null %}

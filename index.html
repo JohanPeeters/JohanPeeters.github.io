@@ -7,13 +7,15 @@
 ---
 <div class="row text-center">
   <div class="col-sm-0 col-md-2"></div>
-  <div class="col-sm-3 col-md-2 service" data-toggle="popover" data-trigger="focus" data-template='<div class="popover" role="tooltip"><div class="popover-content"></div></div>' data-content="What are the assets in your infrastructure and applications that need protecting? What technical measures and supporting processes can you put in place to do so? I give advice, but can also coach your developers and operational staff." data-placement="bottom" tabindex="1">
+  {% assign service = "architecture" %}
+  <div class="col-sm-3 col-md-2 service" {% include services-popovers/data-attributes %}>
     <span class="fa fa-lock" aria-hidden="true"></span>
     <div>
       security architecture
     </div>
   </div>
-  <div class="col-sm-3 col-md-2 service" data-toggle="popover" data-trigger="focus" data-template='<div class="popover" role="tooltip"><div class="popover-content"></div></div>'data-content="Developing software today is as much about integrating components as about writing code in traditional programming languages. In order to run your business logic, you rely on a software stack that is all but trivial to compose, yet may be subject to rapid change. So make sure you have that stack under control." data-placement="bottom" tabindex="1">
+  {% assign service = "devops" %}
+  <div class="col-sm-3 col-md-2 service" {% include services-popovers/data-attributes %}>
     <span class="fa fa-gears" aria-hidden="true"></span>
     <div>
       devops
@@ -41,7 +43,7 @@
       design
     </div>
   </div>
-  <div class="col-sm-3 col-md-2 service">
+  <div class="coldata-toggle data-sm-3 col-md-2 service">
     <span class="fa fa-code-fork" aria-hidden="true"></span>
     <div>
       implementation
@@ -50,7 +52,7 @@
   <div class="col-sm-3 col-md-2 service">
     <span class="fa fa-eye" aria-hidden="true"></span>
     <div>
-      architectural audit 
+      architectural audit
     </div>
   </div>
   <div class="col-sm-3 col-md-2 service">
@@ -63,7 +65,7 @@
 </div>
 
   {% include download-cv %}
-  
+
 <div class="row invite-contact text-center">
     <a href="mailto:yo@johanpeeters.com">Contact me</a> to discuss how I can help you achieve your goals.
 </div>
