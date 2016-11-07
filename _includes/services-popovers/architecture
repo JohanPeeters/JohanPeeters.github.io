@@ -1,2 +1,6 @@
-We increasingly rely on software systems, so it is crucial that they should be trustworthy. The security architecture defines the structures and principles that protect the system from illicit interference.
+<div>
+We increasingly rely on software systems, so it is crucial that they should be trustworthy.
+</div>
+<div>
 Ideally, systems are built from the ground up guided by secure design principles. However, mostly the security architect has to work within an existing architecture, which he has to analyze for potential weaknesses and modify accordingly to mitigate the risk of a security breach.
+</div>

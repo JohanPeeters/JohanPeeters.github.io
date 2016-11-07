@@ -28,7 +28,7 @@
     </script>
     <script>
       $(document).ready(function () {
-        $('[data-toggle="popover"]').popover();
+        $('[data-toggle="popover"]').popover({ html: true });
       });
     </script>
     <script>
@@ -41,7 +41,7 @@
         function(){
 //            $(this).find('.caption').slideUp(250); //.fadeOut(205)
         });
-      }); 
+      });
     </script>
     </body>
 </html>
