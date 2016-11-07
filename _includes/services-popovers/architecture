@@ -1,7 +1,2 @@
-As we increasingly rely on software systems, it is crucial that they should be trustworthy. The security architecture defines the structures and principles that protect the system from illicit interference.
-
- measures taken to
-The security architecture defines the set of properties which
-structural properties
-As a security architect, I analyze your system or infrastructure and identify
-What assets in your infrastructure and applications need protecting? Against which threats? You care about the integrity of the data that goes into and comes out of your application, right? How do you guarantee it? Do you care about confidentiality? What technical measures and supporting processes can you put in place to do so? I give advice, but can also coach your developers and operational staff.
+We increasingly rely on software systems, so it is crucial that they should be trustworthy. The security architecture defines the structures and principles that protect the system from illicit interference.
+Ideally, systems are built from the ground up guided by secure design principles. However, mostly the security architect has to work within an existing architecture, which he has to analyze for potential weaknesses and modify accordingly to mitigate the risk of a security breach.
