@@ -1,0 +1,6 @@
+<div>
+To improve performance, the bottleneck in a system must be found and scaled, or used more efficiently.
+</div>
+<div>
+In a particularly common problem, requests spend so much time queueing that the caller times out. Most contemporary systems continue to process such orphaned requests, thereby clogging the system with useless work.
+</div>

@@ -28,7 +28,8 @@
       continuous integration
     </div>
   </div>
-  <div class="col-sm-3 col-md-2 service">
+  {% assign service = "performance" %}
+  <div class="col-sm-3 col-md-2 service" {% include services-popovers/data-attributes %}>
     <span class="fa fa-tachometer" aria-hidden="true"></span>
     <div>
       performance engineering
