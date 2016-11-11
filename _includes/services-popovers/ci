@@ -1,0 +1,1 @@
+In continuous integration, each commit triggers a new build and test cycle. As a result, regression bugs are spotted immediately. If the build passes, continuous deployment promotes it to the next stage in the release pipeline. This way the lead time between a requested change and its availability in production may be cut dramatically.

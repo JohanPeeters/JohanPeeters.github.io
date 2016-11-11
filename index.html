@@ -21,7 +21,8 @@
       devops
     </div>
   </div>
-  <div class="col-sm-3 col-md-2 service">
+  {% assign service = "ci" %}
+  <div class="col-sm-3 col-md-2 service" {% include services-popovers/data-attributes %}>
     <span class="fa fa-refresh" aria-hidden="true"></span>
     <div>
       continuous integration
