@@ -1,5 +1,5 @@
 ---
-        layout: contact
+        layout: cv
         title: contact
         main_category: contact
 ---
