@@ -2,7 +2,6 @@
         layout: cv
         title: contact
         main_category: contact
-        regenerate: true
 ---
 
 |Johan Peeters bvba|

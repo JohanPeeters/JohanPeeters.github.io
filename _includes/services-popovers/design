@@ -1,1 +1,1 @@
-Whereas architecture is about system structure, i.e. the principal components and how they interact, design is more fine-grained. It has strong affinity with implementation.
+Architecture is about the principal system components and their interaction, whereas design is more fine-grained and facilitates implementation.
