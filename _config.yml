@@ -6,4 +6,3 @@ gems:
 sass:
   style: compressed
 markdown: kramdown
-incremental: false
