@@ -3,9 +3,7 @@ relative_permalinks: false
 permalink: /:title/
 gems:
   - jekyll-sitemap
-  - jekyll-paginate
 sass:
   style: compressed
 markdown: kramdown
-paginate: 2
-paginate_path: "/blog/page:num/"
+incremental: false
