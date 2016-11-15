@@ -1,4 +1,5 @@
 script:
+  - bundle install
   - bundle exec rake test
 
 language: ruby
