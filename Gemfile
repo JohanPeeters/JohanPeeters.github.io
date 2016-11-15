@@ -2,10 +2,13 @@ source 'https://rubygems.org'
 
 require 'json'
 require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+version_string = URI.parse('https://pages.github.com/versions.json').read
+versions = JSON.parse(version_string)
+gem 'github-pages', "#{versions['github-pages']}"
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'rake'
-gem 'html-proofer'
 gem 'font-awesome-sass'
-gem 'jekyll-paginate'
+
+group :test do
+  gem 'rake'
+  gem 'html-proofer'
+end
