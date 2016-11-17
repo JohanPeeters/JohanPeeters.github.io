@@ -4,7 +4,13 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
     <head>
-        <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
+        <!--link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" /-->
+        <style type="text/css">
+          {% capture include_to_scssify %}
+            {% include styles.scss %}
+          {% endcapture %}
+          {{ include_to_scssify | scssify }}
+        </style>
         <title>Johan Peeters bvba: {{page.title}}</title>
         <meta name="author" content="Johan Peeters"/>
         <meta charset="UTF-8"/>
@@ -55,7 +61,7 @@
               <h1>
                 JOHAN PEETERS
               </h1>
-              <div class="bvba"> 
+              <div class="bvba">
                 BVBA
               </div>
             </div>

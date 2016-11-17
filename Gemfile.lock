@@ -157,7 +157,11 @@ DEPENDENCIES
   font-awesome-sass
   github-pages (= 104)
   html-proofer
+  json
   rake
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.13.6
