@@ -4,7 +4,6 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
     <head>
-        <!--link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" /-->
         <style type="text/css">
           {% capture include_to_scssify %}
             {% include styles.scss %}
