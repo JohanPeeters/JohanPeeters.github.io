@@ -2,6 +2,8 @@ script:
   - bundle exec rake test
 
 language: ruby
+rvm:
+  - 2.3.3
 
 env:
   global:
