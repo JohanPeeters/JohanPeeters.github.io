@@ -44,6 +44,9 @@
                 <li id="blog">
                   <a  class="navbar-link" href="https://yo1peeters.blogspot.com" title="Blog" target="_blank">blog</a>
                 </li>
+                <li id="resources">
+                  <a  class="navbar-link" href="/papers/" title="Resources">resources</a>
+                </li>
                 <li id="contact">
                   <a  class="navbar-link" href="/contact/" title="Contact Johan Peeters bvba">contact</a>
                 </li>
