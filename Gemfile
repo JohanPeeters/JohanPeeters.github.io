@@ -8,6 +8,7 @@ ruby ">= #{versions['ruby']}"
 gem 'github-pages', ">= #{versions['github-pages']}"
 gem 'nokogiri', ">= #{versions['nokogiri']}"
 gem 'jekyll', ">= #{versions['jekyll']}"
+gem 'jekyll-sitemap'
 gem 'font-awesome-sass'
 
 group :test do

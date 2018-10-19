@@ -264,6 +264,7 @@ DEPENDENCIES
   github-pages (>= 192)
   html-proofer
   jekyll (>= 3.7.4)
+  jekyll-sitemap
   nokogiri (>= 1.8.4)
   rake
 
