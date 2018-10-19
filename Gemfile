@@ -4,8 +4,10 @@ require 'json'
 require 'open-uri'
 version_string = URI.parse('https://pages.github.com/versions.json').read
 versions = JSON.parse(version_string)
-gem 'github-pages', "#{versions['github-pages']}"
 ruby "#{versions['ruby']}"
+gem 'github-pages', "#{versions['github-pages']}"
+gem 'nokogiri', "#{versions['nokogiri']}"
+gem 'jekyll', "#{versions['jekyll']}"
 gem 'font-awesome-sass'
 
 group :test do
