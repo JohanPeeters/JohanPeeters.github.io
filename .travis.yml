@@ -3,7 +3,7 @@ script:
 
 language: ruby
 rvm:
-  - 2.4.0
+  - 2.5.1
 
 env:
   global:
