@@ -19,4 +19,4 @@ Making sense of the standards and products used for protecting REST services is 
 
 ### TLS ###
 
-TLS may not be perfect, but it is a very convenient way of protecting communication and should be used more widely. I have helped clients in consultancy engagements to do so and advocated its correct use in a number of public fora, including OWASP conferences, SecAppDev courses and, most recently, [SPA 2017 together with Nelis Boucké](https://docs.google.com/presentation/d/11t_CYwxUcBlbBrVqlu7tDuJTS71ywtt7GJ2JkyGsy1M/pub?start=false&loop=false&delayms=3000).
+TLS may not be perfect, but it is a very convenient way of protecting communication and should be used everywhere. I have helped clients in consultancy engagements to do so and advocated its correct use in a number of public fora, including OWASP conferences, SecAppDev courses and, most recently, at [SPA 2017 together with Nelis Boucké](https://spaconference.org/spa2017/sessions/session703.html).

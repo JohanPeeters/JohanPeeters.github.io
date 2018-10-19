@@ -2,6 +2,7 @@ exclude: [Gemfile, Gemfile.lock, params.json, README.md, Rakefile]
 relative_permalinks: false
 permalink: /:title/
 url: "https://johanpeeters.com"
+exclude: [vendor]
 plugins:
   - jekyll-sitemap
 sass:
