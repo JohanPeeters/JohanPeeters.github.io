@@ -6,7 +6,7 @@
 
 ---
 
-I have given presentations and led workshops at several conferences, including [OWASP](https://www.owasp.org), [XPDays Benelux](http://www.xpday.net) and BCS [Software Practice Advancement conference](http://www.spaconference.org) (SPA) on software architecture, security and performance engineering.
+I have given presentations and led workshops at several conferences, including [OWASP](https://www.owasp.org), [XPDays Benelux](http://www.xpday.net) and BCS [Software Practice Advancement conference](https://www.spaconference.org) (SPA) on software architecture, security and performance engineering.
 
 Here are some of my papers and presentations which may be of interest.
 ### Agile development and security ###
