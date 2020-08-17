@@ -11,7 +11,7 @@
 
 
 
-|tel:  |+32 16 649000 |
+|tel:  |+32 486 413229 |
 |VAT:  |BE0476.128.161|
 |H.R.: |Leuven 107840 |
 |email:|yo@johanpeeters.com|
