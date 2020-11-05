@@ -1,1 +1,1 @@
-# JohanPeeters.github.io [![Build Status](https://travis-ci.org/JohanPeeters/JohanPeeters.github.io.svg?branch=master)](https://travis-ci.org/JohanPeeters/JohanPeeters.github.io)
+# JohanPeeters.github.io [![Build Status](https://travis-ci.org/JohanPeeters/JohanPeeters.github.io.svg?branch=master)](https://travis-ci.org/JohanPeeters/JohanPeeters.github.io) [![Known Vulnerabilities](https://snyk.io/test/github/JohanPeeters/JohanPeeters.github.io/badge.svg?targetFile=Gemfile.lock)](https://snyk.io/test/github/JohanPeeters/JohanPeeters.github.io?targetFile=Gemfile.lock)
