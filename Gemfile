@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 require 'json'
 require 'open-uri'
-version_string = URI.parse('https://pages.github.com/versions.json').to_s
+version_string = open('https://pages.github.com/versions.json'){|json| json.read}
 versions = JSON.parse(version_string)
 ruby ">= #{versions['ruby']}"
 gem 'github-pages', ">= #{versions['github-pages']}"
